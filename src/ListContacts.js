@@ -1,4 +1,5 @@
 /* eslint-disable arrow-body-style */
+
 import { html, LitElement, css } from 'lit';
 
 export class ListContacts extends LitElement {
@@ -111,7 +112,6 @@ export class ListContacts extends LitElement {
       }
       return compareName;
     }
-
     this.contacts.sort(sortArray);
   }
 
